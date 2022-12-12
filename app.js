@@ -11,9 +11,9 @@ app.get('/', (req, res) =>
     res.render('pages/home')
 })
 
-app.get('/about', (req, res) =>
+app.get('/contact', (req, res) =>
 {
-    res.render('pages/about')
+    res.render('pages/contact')
 })
 
 app.get('/work', (req, res) =>
